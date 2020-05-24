@@ -1,0 +1,64 @@
+/* Bordered form */
+form{
+    border: 3px solid #7c1034;
+}
+
+input[type=text], input[type=password], input[type=file]
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    
+  }
+
+  button{
+      background-color: green;
+      color: white;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1%;
+      cursor: pointer;
+      width: 100%;
+  }
+
+  h1, h2{
+      text-align: center;  
+  }
+
+  button:hover{
+      opacity: 0.8;
+  }
+
+
+  .cancelbtn{
+      width: auto;
+      padding: 12px;
+      background-color: #f44336;
+      border-radius: 20px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 2px;
+  }
+
+  container {
+      padding: 4px;
+  }
+
+  span.psw{
+      float: auto;
+      padding-top: 12px;
+  }
+
+  @media screen and (max-width: 300px){
+      span.psw{
+          display: block;
+          float: none;
+      }
+  .cancelbtn {
+      width: 100%;
+  }
+}
